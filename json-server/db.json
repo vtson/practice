@@ -1,0 +1,319 @@
+{
+  "mobiles": [
+    {
+      "id": 0,
+      "name": "Iphone 7 Plus",
+      "image": "images/blackberry.jpg",
+      "label": "Hot",
+      "price": "20.000.000đ",
+      "title": "Điện thoại Iphone 7 Plus",
+      "manhinh": "LED-backlit IPS LCD, 5.5, Retina HD",
+      "hdh": "iOS 10",
+      "camerasau": "2 camera 12 MP",
+      "cameratruoc": "7 MP",
+      "cpu": "Apple A10 Fusion 4 nhân 64-bit",
+      "ram": "3 GB",
+      "bonhotrong": "128 GB",
+      "thenho": "Không",
+      "thesim": "1 Nano SIM, Hỗ trợ 4G",
+      "dungluongpin": "2900 mAh, Không",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Great!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Tomorrow, I will buy it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        },
+        {
+          "rating": "5",
+          "comment": "nice",
+          "author": "Sieunhan",
+          "date": "2017-07-27T09:05:01.733Z"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Iphone 7 Plus",
+      "image": "images/bphone.png",
+      "label": "Hot",
+      "price": "20.000.000đ",
+      "title": "Điện thoại Iphone 7 Plus",
+      "manhinh": "LED-backlit IPS LCD, 5.5, Retina HD",
+      "hdh": "iOS 10",
+      "camerasau": "2 camera 12 MP",
+      "cameratruoc": "7 MP",
+      "cpu": "Apple A10 Fusion 4 nhân 64-bit",
+      "ram": "3 GB",
+      "bonhotrong": "128 GB",
+      "thenho": "Không",
+      "thesim": "1 Nano SIM, Hỗ trợ 4G",
+      "dungluongpin": "2900 mAh, Không",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Great!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Tomorrow, I will buy it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        },
+        {
+          "rating": "1",
+          "comment": "bad",
+          "author": "al",
+          "date": "2017-07-28T06:40:03.804Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Iphone 7 Plus",
+      "image": "images/galaxy7.png",
+      "label": "Hot",
+      "price": "20.000.000đ",
+      "title": "Điện thoại Iphone 7 Plus",
+      "manhinh": "LED-backlit IPS LCD, 5.5, Retina HD",
+      "hdh": "iOS 10",
+      "camerasau": "2 camera 12 MP",
+      "cameratruoc": "7 MP",
+      "cpu": "Apple A10 Fusion 4 nhân 64-bit",
+      "ram": "3 GB",
+      "bonhotrong": "128 GB",
+      "thenho": "Không",
+      "thesim": "1 Nano SIM, Hỗ trợ 4G",
+      "dungluongpin": "2900 mAh, Không",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Great!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Tomorrow, I will buy it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Iphone 7 Plus",
+      "image": "images/htc.jpg",
+      "label": "Hot",
+      "price": "20.000.000đ",
+      "title": "Điện thoại Iphone 7 Plus",
+      "manhinh": "LED-backlit IPS LCD, 5.5, Retina HD",
+      "hdh": "iOS 10",
+      "camerasau": "2 camera 12 MP",
+      "cameratruoc": "7 MP",
+      "cpu": "Apple A10 Fusion 4 nhân 64-bit",
+      "ram": "3 GB",
+      "bonhotrong": "128 GB",
+      "thenho": "Không",
+      "thesim": "1 Nano SIM, Hỗ trợ 4G",
+      "dungluongpin": "2900 mAh, Không",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Great!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Tomorrow, I will buy it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Iphone 7 Plus",
+      "image": "images/iphone.jpg",
+      "label": "Hot",
+      "price": "20.000.000đ",
+      "title": "Điện thoại Iphone 7 Plus",
+      "manhinh": "LED-backlit IPS LCD, 5.5, Retina HD",
+      "hdh": "iOS 10",
+      "camerasau": "2 camera 12 MP",
+      "cameratruoc": "7 MP",
+      "cpu": "Apple A10 Fusion 4 nhân 64-bit",
+      "ram": "3 GB",
+      "bonhotrong": "128 GB",
+      "thenho": "Không",
+      "thesim": "1 Nano SIM, Hỗ trợ 4G",
+      "dungluongpin": "2900 mAh, Không",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Great!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Tomorrow, I will buy it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Iphone 7 Plus",
+      "image": "images/lg.jpg",
+      "label": "Hot",
+      "price": "20.000.000đ",
+      "title": "Điện thoại Iphone 7 Plus",
+      "manhinh": "LED-backlit IPS LCD, 5.5, Retina HD",
+      "hdh": "iOS 10",
+      "camerasau": "2 camera 12 MP",
+      "cameratruoc": "7 MP",
+      "cpu": "Apple A10 Fusion 4 nhân 64-bit",
+      "ram": "3 GB",
+      "bonhotrong": "128 GB",
+      "thenho": "Không",
+      "thesim": "1 Nano SIM, Hỗ trợ 4G",
+      "dungluongpin": "2900 mAh, Không",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Great!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Tomorrow, I will buy it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Iphone 7 Plus",
+      "image": "images/oppo.jpg",
+      "label": "Hot",
+      "price": "20.000.000đ",
+      "title": "Điện thoại Iphone 7 Plus",
+      "manhinh": "LED-backlit IPS LCD, 5.5, Retina HD",
+      "hdh": "iOS 10",
+      "camerasau": "2 camera 12 MP",
+      "cameratruoc": "7 MP",
+      "cpu": "Apple A10 Fusion 4 nhân 64-bit",
+      "ram": "3 GB",
+      "bonhotrong": "128 GB",
+      "thenho": "Không",
+      "thesim": "1 Nano SIM, Hỗ trợ 4G",
+      "dungluongpin": "2900 mAh, Không",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Great!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Tomorrow, I will buy it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Iphone 7 Plus",
+      "image": "images/sony.png",
+      "label": "Hot",
+      "price": "20.000.000đ",
+      "title": "Điện thoại Iphone 7 Plus",
+      "manhinh": "LED-backlit IPS LCD, 5.5, Retina HD",
+      "hdh": "iOS 10",
+      "camerasau": "2 camera 12 MP",
+      "cameratruoc": "7 MP",
+      "cpu": "Apple A10 Fusion 4 nhân 64-bit",
+      "ram": "3 GB",
+      "bonhotrong": "128 GB",
+      "thenho": "Không",
+      "thesim": "1 Nano SIM, Hỗ trợ 4G",
+      "dungluongpin": "2900 mAh, Không",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Great!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Tomorrow, I will buy it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Iphone 7 Plus",
+      "image": "images/xiaomi5.jpg",
+      "label": "Hot",
+      "price": "20.000.000đ",
+      "title": "Điện thoại Iphone 7 Plus",
+      "manhinh": "LED-backlit IPS LCD, 5.5, Retina HD",
+      "hdh": "iOS 10",
+      "camerasau": "2 camera 12 MP",
+      "cameratruoc": "7 MP",
+      "cpu": "Apple A10 Fusion 4 nhân 64-bit",
+      "ram": "3 GB",
+      "bonhotrong": "128 GB",
+      "thenho": "Không",
+      "thesim": "1 Nano SIM, Hỗ trợ 4G",
+      "dungluongpin": "2900 mAh, Không",
+      "comments": [
+        {
+          "rating": 5,
+          "comment": "Great!",
+          "author": "John Lemon",
+          "date": "2012-10-16T17:57:28.556094Z"
+        },
+        {
+          "rating": 4,
+          "comment": "Tomorrow, I will buy it!",
+          "author": "Paul McVites",
+          "date": "2014-09-05T17:57:28.556094Z"
+        }
+      ]
+    }
+  ],
+  "feedback": [
+    {
+      "mychannel": "",
+      "firstName": "123",
+      "lastName": "123",
+      "agree": false,
+      "email": "123@1",
+      "tel": {
+        "areaCode": "123",
+        "number": "123"
+      },
+      "comments": "sdfafafsvwve",
+      "id": 1
+    }
+  ]
+}

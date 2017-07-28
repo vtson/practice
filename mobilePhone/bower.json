@@ -1,0 +1,23 @@
+{
+  "name": "mobilephone",
+  "authors": [
+    "vu thanh son <vts.vuthanhson@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.6.5",
+    "angular-resource": "^1.6.5",
+    "angular-mocks": "^1.6.5"
+  }
+}

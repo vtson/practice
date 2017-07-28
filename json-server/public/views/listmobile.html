@@ -1,0 +1,28 @@
+<div class="content" ng-controller="ListController">
+<div class="container">
+		<div class="listitem">
+			<div class="item" ng-repeat="mobile in mobiles">
+				<a href="#"><img ng-src={{mobile.image}} ui-sref="app.listdetails({id: mobile.id})"></a>
+				<div class="price">
+					<h4>{{mobile.name}} &nbsp;<span class="label label-danger label-xs">{{mobile.label}}</span></h4>
+					<p>{{mobile.title}}</p>
+					<span class="badge">{{mobile.price}}</span>
+				</div>
+				<div class="overlay">
+					<h3>Thông số kỹ thuật</h3>
+					<strong>Màn hình:</strong>{{mobile.manhinh}}<br>
+					<strong>Hệ điều hành:</strong>{{mobile.hdh}}<br>
+					<strong>Camera sau:</strong>{{mobile.camerasau}}<br>
+					<strong>Camera trước:</strong>{{mobile.cameratruoc}}<br>
+					<strong>CPU:</strong>{{mobile.cpu}}<br>
+					<strong>RAM:</strong>{{mobile.ram}}<br>
+					<strong>Bộ nhớ trong:</strong>{{mobile.bonhotrong}}<br>
+					<strong>Thẻ nhớ:</strong>{{mobile.thenho}}<br>
+					<strong>Thẻ sim:</strong>{{mobile.thesim}}<br>
+					<strong>Thẻ dung lượng pin:</strong>{{mobile.dungluongpin}}<br>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

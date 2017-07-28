@@ -1,0 +1,90 @@
+
+<div class="listitem row container" ng-controller="MobiDeController">
+<div style="margin-top:50px;">
+</div>
+		<div class="col-xs-12" ng-if="!showMobi">
+                <h3>{{message}}</h3>
+            </div>
+		<div class="col-xs-12 " ng-if="showMobi">
+		<button class="btn btn-xs btn-primary pull-right"
+                    type="button" ui-sref="app">
+                    Back to Menu
+                </button>
+			<div class="col-md-4 col-md-offset-1">
+				<a class="details-img" href="#"><img ng-src={{mobile.image}} ></a>
+				<div class="price">
+					<h4>{{mobile.name}} &nbsp;<span class="label label-danger label-xs">{{mobile.label}}</span></h4>
+					<p>{{mobile.title}}</p>
+					<span class="badge">{{mobile.price}}</span>
+				</div>
+			</div>
+			<div class="col-md-6 col-md-offset-1">
+				<div>
+					<h3>Thông số kỹ thuật</h3>
+					<strong>Màn hình:</strong>{{mobile.manhinh}}<br>
+					<strong>Hệ điều hành:</strong>{{mobile.hdh}}<br>
+					<strong>Camera sau:</strong>{{mobile.camerasau}}<br>
+					<strong>Camera trước:</strong>{{mobile.cameratruoc}}<br>
+					<strong>CPU:</strong>{{mobile.cpu}}<br>
+					<strong>RAM:</strong>{{mobile.ram}}<br>
+					<strong>Bộ nhớ trong:</strong>{{mobile.bonhotrong}}<br>
+					<strong>Thẻ nhớ:</strong>{{mobile.thenho}}<br>
+					<strong>Thẻ sim:</strong>{{mobile.thesim}}<br>
+					<strong>Thẻ dung lượng pin:</strong>{{mobile.dungluongpin}}<br>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-9 col-xs-offset-1" ng-controller="ListCommentController">
+            	<h3 style="display:inline-block;">Customer Comments</h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            	<label for="sort"><small>Sort by: </small></label><input id="sort" ng-model="orderText">
+                <div class="col-xs-12" ng-repeat="comment in mobile.comments | orderBy:orderText">
+                	<blockquote>
+                		<p>{{comment.rating}} Star</p>
+                		<p>{{comment.comment}}</p>
+                		<footer>{{comment.author}}, {{comment.date | date:"MMM. dd, yyyy"}}</footer>
+                	</blockquote>
+                </div>
+        	<div class="col-xs-12" ng-show="commentForm.$valid && !commentForm.$pristine">
+                    <blockquote>
+                        <p>{{comment.rating}} Stars</p>
+                        <p>{{comment.comment}}</p>
+                        <footer>{{comment.author}}, {{comment.date | date}}</footer>
+                    </blockquote>
+           	</div>
+       <form class="form-horizontal col-xs-12" name="commentForm" ng-submit="submitComment()" novalidate="">
+       		<div class="form-group" ng-class="{'has-error': commentForm.author.$error.required && !commentForm.author.$pristine}">
+       			<label for="author" class="col-sm-2 control-label">Author</label>
+       			<div class="col-sm-10">
+       				<input type="text" clas="form-control" id="author" name="author" placeholder="Enter Name" ng-model="comment.author" required>
+       				<span ng-show="commentForm.author.$error.required && !commentForm.author.$pristine" class="help-block">
+       					Your name is required.
+       				</span>
+       			</div>
+       		</div>
+       		<div class="form-group">
+                    <label for="rating" class="col-sm-2 control-label">Rating</label>
+                            <div class="col-sm-10">
+                            <label class="radio-inline"><input type="radio" name="rating" value="1" ng-model="comment.rating">1</label>
+                            <label class="radio-inline"><input type="radio" name="rating" value="2" ng-model="comment.rating">2</label>
+                            <label class="radio-inline"><input type="radio" name="rating" value="3" ng-model="comment.rating">3</label>
+                            <label class="radio-inline"><input type="radio" name="rating" value="4" ng-model="comment.rating">4</label>
+                            <label class="radio-inline"><input type="radio" name="rating" value="5" ng-model="comment.rating" ng-checked="true">5</label>
+                        </div>
+             </div>
+             <div class="form-group" ng-class="{'has-error':commentForm.comment.$error.required && !commentForm.comment.$pristine}">
+             	<label for="comment" class="col-sm-2 control-label">Comment</label>
+                <div class="col-sm-10">
+                	<textarea class="form-control" id="comment" name="comment" rows="5" ng-model="comment.comment" required></textarea>
+                	<span ng-show="commentForm.comment.$error.required && !commentForm.comment.$pristine" class="help-block">
+                		Your commnet is required.
+                	</span>
+                </div>
+             </div>
+             <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary" ng-disabled="commentForm.$invalid">Send Comment</button>
+                        </div>
+                    </div>
+       </form>
+       </div>
+</div>
